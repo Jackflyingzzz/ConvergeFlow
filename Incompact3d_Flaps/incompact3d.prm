@@ -33,7 +33,7 @@
 # INCOMPACT 3D File parameters 
 #
 data           # Relative data path
-0              # Read initial flow field ?
+1              # Read initial flow field ?
 restart        # Name of initial flow field
 1000000              # Index of first snapshot file  
 30       # Iteration between snapshot
@@ -74,7 +74,7 @@ condent.dat    # Name of turbinit file
 5.0    # Maximum flap angle (degrees) (amax)
 0.10    # Oscillating flap frequency (freq)
 0      # Length of flaps
-0     # Thickness of flaps
+0.05     # Thickness of flaps
 1       # Flapping (0) -or- Clapping (1) 
 1.0     # Ahmed Body Aspect Ratio (length/width)
 1       # Exceed 0 degrees angle? (0: Yes, 1: No)  (Only for Clapping!)
