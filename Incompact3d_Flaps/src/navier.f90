@@ -109,8 +109,8 @@ if (ilit==0) then
          gy(i,j,k)=uy(i,j,k)
          gz(i,j,k)=uz(i,j,k)
        else         
-         ux(i,j,k)=bxx1(j,k)+0.1*um*ux(i,j,k)
-         uy(i,j,k)=bxy1(j,k)+0.1*um*uy(i,j,k)
+         ux(i,j,k)=bxx1(j,k)!+0.1*um*ux(i,j,k)
+         uy(i,j,k)=bxy1(j,k)!+0.1*um*uy(i,j,k)
          uz(i,j,k)=bxz1(j,k)
          gx(i,j,k)=ux(i,j,k)
          gy(i,j,k)=uy(i,j,k)
