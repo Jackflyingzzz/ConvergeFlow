@@ -73,7 +73,7 @@ condent.dat    # Name of turbinit file
 #
 5.0    # Maximum flap angle (degrees) (amax)
 0.10    # Oscillating flap frequency (freq)
-0      # Length of flaps
+0.6      # Length of flaps
 0.05     # Thickness of flaps
 1       # Flapping (0) -or- Clapping (1) 
 1.0     # Ahmed Body Aspect Ratio (length/width)
